@@ -13,7 +13,6 @@
 
 	<div class="entry-content">
 		<?php the_post_thumbnail(); ?>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
